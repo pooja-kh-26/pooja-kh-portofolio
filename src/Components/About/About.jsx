@@ -5,7 +5,8 @@ import { FaJava } from 'react-icons/fa';
 import { SiC } from 'react-icons/si';
 import { SiMysql } from "react-icons/si";
 import { SiPython } from "react-icons/si";
-import {FaReact} from 'react-icons/fa'
+import {FaReact} from 'react-icons/fa';
+import { FaCloud } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -46,8 +47,17 @@ const About = () => {
                 </span>
 
                 <span className='p-4 bg-zinc-900 flex items-center justify-center rounded-2xl shadow-lg hover:scale-110 transition-transform'>
-                    <SiMysql color="#4479A1" size={60} />
+                <SiMysql color="#4479A1" size={60} />
                 </span>
+
+                <span className="p-4 bg-zinc-900 flex items-center justify-center rounded-2xl shadow-lg hover:scale-110 transition-transform">
+                <img 
+                    src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" 
+                    alt="AWS Logo" 
+                    className="w-16 h-16 object-contain" 
+                />
+                </span>
+
             </div>
         </div>
     </div>

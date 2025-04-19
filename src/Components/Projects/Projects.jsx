@@ -5,16 +5,22 @@ const Projects = () => {
   // Sample project data
   const projectsData = [
     {
-      title: 'ChatCore',
-      main: 'Built a real-time chatbot with dynamic interactions, RESTful API integration, file upload support, emojis, and robust error handling.',
-      demoLink: "https://chatcore.netlify.app/",
-      codeLink: "https://github.com/pooja-kh-26/ChatBot"
+      title: 'Bedrock Reader',
+      main: 'Developed a scalable RAG system using AWS Bedrock, LangChain, LLaMA 2, and FAISS for querying a Karnataka tourist guide PDF, with automated text extraction, chunking, vector search, and a Streamlit interface, adaptable to other documents.',
+      demoLink: "https://github.com/pooja-kh-26/BedrockReader",
+      codeLink: "https://bedrockreader.streamlit.app/"
     },
     {
       title: 'Energy Trends in India',
       main: 'Developed an interactive Tableau dashboard to analyze key energy trends in India. Integrated reliable data sources to visualize energy production, consumption, and renewable adoption across regions and time periods. Published online for broader accessibility.',
       demoLink: "https://public.tableau.com/app/profile/pooja.k.h/viz/EnergyTrendsInIndia/Dashboard1?publish=yes",
-      codeLink: ""
+      codeLink: "https://github.com/pooja-kh-26/Energy-Trends-in-India"
+    },
+    {
+      title: 'ChatCore',
+      main: 'Built a real-time chatbot with dynamic interactions, RESTful API integration, file upload support, emojis, and robust error handling.',
+      demoLink: "https://chatcore.netlify.app/",
+      codeLink: "https://github.com/pooja-kh-26/ChatBot"
     },
     {
       title: 'Currency Converter',
@@ -120,7 +126,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className='text-white py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'
                   >
-                    Source Code
+                    Github
                   </a>
                 )}
               </div>

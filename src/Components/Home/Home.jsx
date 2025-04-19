@@ -21,9 +21,7 @@ const Home = () => {
           <TextChange />
         </h1>
         <p className="text-lg md:text-2xl tracking-tight mt-4">
-          I am a B.E in Information Science and Engineering student passionate about software development and data science. 
-          I am a quick learner and a team player with a strong foundation in programming, problem-solving, and project management. 
-          I am seeking opportunities to leverage my skills in a dynamic and collaborative environment.
+        A B.E. student in Information Science and Engineering at R V Institute of Technology and Management, passionate about learning, building projects, and exploring new technologies.
         </p>
         <button className="mt-6 md:mt-10 text-white py-2 px-4 text-lg md:text-xl hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
          <a href="#Footer">Contact Me</a> 
