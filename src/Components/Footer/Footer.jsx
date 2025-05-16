@@ -13,7 +13,7 @@ const Footer = () => {
       
       <ul className='text-base md:text-2xl space-y-4 space-x-4'>
         <li>
-          <h7>Email: <p>poojakh2026@gmail.com</p></h7>
+          <h6>Email: <p>poojakh2026@gmail.com</p></h6>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/pooja-kh/" target="_blank" rel="noopener noreferrer" className='flex gap-2 items-center hover:text-gray-300 transition-colors'>

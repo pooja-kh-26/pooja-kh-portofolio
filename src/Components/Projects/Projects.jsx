@@ -5,6 +5,12 @@ const Projects = () => {
   // Sample project data
   const projectsData = [
     {
+      title: 'HealthEd AI',
+      main: 'Built a dual-mode AI app using ClinicalBERT and MedQuAD to simplify medical terms for patients and offer detailed content for students. Developed with React.js and Node.js, featuring NLP-powered explanations and a medication info system.',
+      demoLink: "https://github.com/pooja-kh-26/HeathEd_AI",
+      codeLink: "https://health-made-simple-powered-by-ai.netlify.app/"
+    },
+    {
       title: 'Bedrock Reader',
       main: 'Developed a scalable RAG system using AWS Bedrock, LangChain, LLaMA 2, and FAISS for querying a Karnataka tourist guide PDF, with automated text extraction, chunking, vector search, and a Streamlit interface, adaptable to other documents.',
       demoLink: "https://github.com/pooja-kh-26/BedrockReader",
