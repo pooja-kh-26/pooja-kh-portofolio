@@ -14,7 +14,7 @@ const About = () => {
         <h1 className='text-2xl md:text-4xl text-white font-bold mb-8'>About</h1>
 
         <div className="bg-slate-950 p-6 rounded-xl shadow-lg w-3/4 items-center mx-auto">
-            <h2 className='text-lg md:text-xl text-white font-bold mb-8'>Techincal Skills</h2>
+            <h2 className='text-lg md:text-xl text-white font-bold mb-8'>Technical Skills</h2>
             
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
             <span className="p-4 bg-zinc-900  flex items-center justify-center rounded-2xl shadow-lg hover:scale-110 transition-transform">
